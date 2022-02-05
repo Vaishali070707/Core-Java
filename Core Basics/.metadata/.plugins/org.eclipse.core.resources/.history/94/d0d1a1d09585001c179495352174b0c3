@@ -1,0 +1,20 @@
+package collection.framework;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class QueueInterfaceMethods_Add {
+	public static void main(String[] args) {
+		Queue q = new PriorityQueue();
+	
+		
+		//q.element();   // it will retrieve all but not remove the head
+		System.out.println(q);
+		//q.remove();
+		
+	//	q.peek();
+		System.out.println(q.peek());
+		
+	}
+
+}

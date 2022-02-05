@@ -1,0 +1,20 @@
+package collection.framework;
+
+import java.util.Stack;
+
+public class Assignment_Question_Eight {
+	public static void main(String[] args) {
+		Stack s = new Stack();
+		
+		
+		
+		for (char i = 'a'; i <='z'; i++) {
+			s.push(i);
+			//s.pop();
+			
+		}
+		System.out.println(s);
+		
+	}
+
+}

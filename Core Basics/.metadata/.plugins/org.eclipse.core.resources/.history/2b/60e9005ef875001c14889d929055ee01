@@ -1,0 +1,17 @@
+package basicjava;
+
+public class TABLEFROM2TO10 {
+	public static void main(String[] args) {
+		int[][] a=new int[9] [10];
+		for(int i=2;i<a.length;i++)
+		{System.out.println(" ");
+			for (int j=1;j<a[i].length;j++)
+			{
+				int c=(i)*(j); 
+				System.out.print(c+"\t");
+			}
+		}
+		
+	}
+
+}

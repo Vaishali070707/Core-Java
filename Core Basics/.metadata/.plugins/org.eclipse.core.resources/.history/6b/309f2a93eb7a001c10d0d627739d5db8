@@ -1,0 +1,15 @@
+package sp;
+
+public class Animal1 {
+	String color;
+	int age;
+	public static void main(String[] args) {
+		Animal tommy = new Animal();
+		
+		tommy.color = "red";
+		tommy.age = 10;
+		System.out.print(tommy.color+""+tommy.age);
+		
+	}
+
+}

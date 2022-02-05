@@ -1,0 +1,12 @@
+package exception.handling;
+
+public class TryCatch {
+	public static void main(String[] args) {
+		 
+			double div = 15/0;/// Exception part
+			System.out.println(div);
+		
+	
+		
+}
+}

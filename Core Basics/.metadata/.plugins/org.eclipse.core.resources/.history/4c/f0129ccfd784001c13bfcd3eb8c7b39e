@@ -1,0 +1,22 @@
+package collection.framework;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListInterfaceMethods_Sublist {
+	public static void main(String[] args) {
+		List m = new LinkedList();
+		m.add(12);           
+		m.add(3.6);         
+		m.add("Vaishali");          
+		m.add("true"); 
+		
+		//m.subList(0,1);
+		//System.out.println(m);
+		
+		System.out.println(m.subList(0, 1));
+		
+	}
+
+}

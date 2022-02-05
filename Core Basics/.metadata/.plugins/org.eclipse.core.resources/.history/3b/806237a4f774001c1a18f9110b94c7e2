@@ -1,0 +1,5 @@
+package basicjava;
+
+public class PALINDROME {
+	public static void main(String[] args) {
+		

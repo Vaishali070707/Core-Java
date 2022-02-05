@@ -1,0 +1,8 @@
+package sp;
+
+public class MyEmployee {
+	int id;
+	String name;
+
+}
+

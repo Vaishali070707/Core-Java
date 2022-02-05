@@ -1,0 +1,8 @@
+package sp;
+
+public class Birds {
+	public void sparo() {
+		System.out.println("I am flying");
+	}
+
+}

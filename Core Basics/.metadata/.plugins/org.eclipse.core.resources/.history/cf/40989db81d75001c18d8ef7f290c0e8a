@@ -1,0 +1,12 @@
+package basicjava;
+
+public class FETCHSTRINGFROMLITERALPOOL {
+	String s1="Vaishali";
+	String s2="Vaishali";
+	{
+		System.out.println(s1);
+		System.out.println(s2);
+	}
+	
+
+}

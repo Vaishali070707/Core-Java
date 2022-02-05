@@ -1,0 +1,26 @@
+package sp;
+
+public class Animal1 {
+	String color;
+	int age;
+	void intObj(String c, int a ) {
+		color = c;
+		age = a;
+	}
+	void display() {
+		System.out.println(color+""+age);
+	}
+	//public static void main(String[] args) {
+		//Animal tommy = new Animal();
+		
+		//tommy.color = "red";
+		//tommy.age = 10;
+		//System.out.println(tommy.color+""+tommy.age);
+		public static void main(String[] args) {
+			Animal tommy = new Animal();
+			tommy.intObj("black", 20);
+			
+		}
+	}
+
+}

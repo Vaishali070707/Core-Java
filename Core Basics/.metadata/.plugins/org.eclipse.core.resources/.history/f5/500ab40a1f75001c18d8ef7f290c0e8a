@@ -1,0 +1,9 @@
+package basicjava;
+
+public class COUNTOCCURENCEOFACHARACTER {
+	public static void main(String[] args) {
+		String S="Vaishali";
+		
+	}
+
+}

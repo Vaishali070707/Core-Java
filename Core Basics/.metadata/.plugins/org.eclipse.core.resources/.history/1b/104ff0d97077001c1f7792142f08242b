@@ -1,0 +1,17 @@
+package basicjava;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DATECLASS {
+	public static void main(String[] args) {
+		Date d=new Date();
+		System.out.println(d);    // IST (INDIAN STANDARD TIME)
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yy")
+				String dd= sdf.format(d);
+		System.out.println(d);
+		
+	}
+
+}

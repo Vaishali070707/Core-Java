@@ -1,0 +1,22 @@
+package basicjava;
+
+public class PALINDROMENUMBER {
+	public static void main(String[] args) {
+		int i=121;
+		int j=0;
+		int rem;
+		while(i!=0) {
+			rem=i%10;
+			j=(j*10)+rem;
+			i=i/10;
+			
+		}
+		if(i==j)
+		{
+			System.out.println(i+"is palindrome no");
+		}else {
+			System.out.println(i+"is not a palindrome no");
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+package sp;
+
+public class Animal {
+	public String color;
+	public int age;
+	public void eat() {
+		System.out.println("I am eating");
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println("1");
+		Animal tommy = new Animal();
+		tommy.eat();
+		tommy.run();
+		Animal a = new Animal();
+		a.eat();
+		a.run();
+		
+	
+}
+	public void run() {
+		System.out.println("I am running");
+	}
+	
+
+}

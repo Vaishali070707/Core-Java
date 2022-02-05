@@ -1,0 +1,10 @@
+package sp;
+
+public class TestMyEmployee {
+	public static void main(String[] args) {
+		MyEmployee m = new MyEmployee();
+		m.id = 45;
+		m.name = "Vaishali"; 
+	}
+
+}

@@ -1,0 +1,9 @@
+package collection.framework;
+
+public class TestCollection {
+	public static void main(String[] args) {
+		List l  = new arraylist();
+		
+	}
+
+}

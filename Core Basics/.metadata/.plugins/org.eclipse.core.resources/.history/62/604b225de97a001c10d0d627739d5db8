@@ -1,0 +1,10 @@
+package sp;
+
+public class TestBirds {
+	public static void main(String[] args) {
+		Birds b = new Birds();
+		b.sparo();
+		
+	}
+
+}

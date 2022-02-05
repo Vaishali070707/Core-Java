@@ -1,0 +1,8 @@
+package collection.framework;
+
+public class QueueInterfaceMethods_Offer {
+	public static void main(String[] args) {
+		queue q = new linkedlist();
+	}
+
+}

@@ -1,0 +1,8 @@
+package basicjava;
+
+public class FETCHSTRINGFROMLITERALPOOL {
+	public static void main(String[] args) {
+		
+	}
+
+}

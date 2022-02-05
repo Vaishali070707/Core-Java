@@ -1,0 +1,5 @@
+package object.oriented.programming;
+
+public class TestAbsShape {
+
+}

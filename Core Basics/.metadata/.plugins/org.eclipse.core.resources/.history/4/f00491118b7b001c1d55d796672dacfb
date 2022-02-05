@@ -1,0 +1,10 @@
+package object.oriented.programming;
+
+public class BusinessManTestclass {
+	public static void main(String[] args) {
+		Richman rm = new BusinessMan();
+		SocialWorker sw = new BusinessMan();
+		BusinessMan bm = new BusinessMan();
+	}
+
+}

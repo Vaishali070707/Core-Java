@@ -1,0 +1,10 @@
+package object.oriented.programming;
+
+public class TestCircle {
+	public static void main(String[] args) {
+		Shape s = new Circle();
+		System.out.println(s.area());
+		
+	}
+
+}

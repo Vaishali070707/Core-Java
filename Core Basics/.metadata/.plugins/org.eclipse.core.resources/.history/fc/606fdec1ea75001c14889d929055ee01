@@ -1,0 +1,9 @@
+package basicjava;
+
+public class EXTRACTFROMSTRING {
+	public static void main(String[] args) {
+		String S="Vaishali Sawasiya";
+		System.out.println(S.substring(0,8));
+	}
+
+}
